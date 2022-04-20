@@ -1,0 +1,27 @@
+#News {
+  display: flex;
+  flex-direction: column;
+  gap: var(--medium-gap);
+
+  max-width: 80ch;
+}
+
+.NewsItem {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: var(--medium-gap);
+  background-color: var(--background-color-secondary);
+  border-radius: 4px;
+  backdrop-filter: blur(8px);
+}
+
+.NewsTitle {
+  font-family: var(--fancy-font), sans-serif;
+}
+
+.NewsTitle > img {
+  vertical-align: bottom;
+}
+
+#News * p {
+  margin-bottom: 0;
+}
