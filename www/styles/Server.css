@@ -59,15 +59,7 @@ summary {
   padding: 10px;
   text-align: center;
   color: white;
-  background-image: linear-gradient(
-    to right bottom,
-    #cf374d,
-    #c02d3d,
-    #b1232e,
-    #a21a1f,
-    #931010
-  );
-  box-shadow: #00000078 0 0 8px 0px;
+  background-color: #cf374d;
   border-radius: 4px;
   white-space: nowrap;
 
@@ -76,15 +68,8 @@ summary {
 
 .PlayButton:hover,
 .PlayButton:focus {
+  background-color: #f5445f;
   color: white;
-  background-image: linear-gradient(
-    to right bottom,
-    #e64c63,
-    #df4052,
-    #d63440,
-    #cd272e,
-    #c31b1b
-  );
 }
 
 .StatusOnline {
