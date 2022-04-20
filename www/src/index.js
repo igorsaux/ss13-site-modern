@@ -68,16 +68,21 @@ function renderNews(newsArray) {
 
     const date = new Date(news.date);
 
+    const content = marked.parseInline(news.content);
+    const contentEl = document.createElement("p");
+
+    contentEl.innerHTML = content;
+    contentEl.classList.add("Text");
+
     el.innerHTML = `
 <h2 class="NewsTitle">
     ${news.name}
 </h2>
-<div class="Data">
+<p class="Date">
     <b>${date.toLocaleDateString()}</b>
-</div>
-<p>
-    ${news.content}
 </p>`;
+
+    el.append(contentEl);
 
     newsBlock.appendChild(el);
   }

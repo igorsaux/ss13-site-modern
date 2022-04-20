@@ -15,7 +15,13 @@
 }
 
 .NewsTitle {
+  margin: 0;
+  margin-bottom: var(--medium-gap);
   font-family: var(--fancy-font), sans-serif;
+}
+
+.Text {
+  word-wrap: break-word;
 }
 
 .NewsTitle > img {
