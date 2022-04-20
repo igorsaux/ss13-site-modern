@@ -145,9 +145,9 @@ summary {
 
 .ServerLink.wikipedia-w {
   color: white;
-  background-color: black;
+  background-color: #ff3541;
 }
 
 .ServerLink.wikipedia-w:hover {
-  background-color: rgb(30, 30, 30);
+  background-color: #b8242e;
 }
