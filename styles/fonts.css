@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'VGA8';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../static/vga8.woff2) format('woff2');
+}
