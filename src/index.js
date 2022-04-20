@@ -73,7 +73,7 @@ function renderNews(newsArray) {
     ${news.name}
 </h2>
 <div class="Data">
-    <b>DATE: ${date.toLocaleDateString()}</b>
+    <b>${date.toLocaleDateString()}</b>
 </div>
 <p>
     ${news.content}
@@ -83,10 +83,13 @@ function renderNews(newsArray) {
   }
 }
 
-const data = JSON.parse(document.body.getAttribute("data-json"));
+async function main() {
+  const response = await fetch("./data.json");
+  const data = await response.json();
+  // const data = JSON.parse(document.body.getAttribute("data-json"));
 
-renderServers(data.servers);
-renderNews(data.news);
-renderNews(data.news);
-renderNews(data.news);
-renderNews(data.news);
+  renderServers(data.servers);
+  renderNews(data.news);
+}
+
+main();
