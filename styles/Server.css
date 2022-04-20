@@ -126,3 +126,30 @@ summary {
   background-color: #ffffff;
   color: black;
 }
+
+.ServerLink.discord {
+  color: white;
+  background-color: #5662f6;
+}
+
+.ServerLink.discord:hover {
+  background-color: #6872ff;
+}
+
+.ServerLink.github {
+  color: black;
+  background-color: white;
+}
+
+.ServerLink.github:hover {
+  background-color: rgb(224, 224, 224);
+}
+
+.ServerLink.wikipedia-w {
+  color: white;
+  background-color: black;
+}
+
+.ServerLink.wikipedia-w:hover {
+  background-color: rgb(24, 24, 24);
+}
