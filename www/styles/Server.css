@@ -14,7 +14,7 @@
   border: 1px solid rgba(255, 255, 255, 0.1);
   padding: var(--medium-gap);
   gap: var(--medium-gap);
-  background-color: var(--background-color-secondary);
+  background-color: var(--background-color-primary);
   backdrop-filter: blur(8px);
   border-radius: 4px;
 }
@@ -32,10 +32,6 @@
   display: flex;
   align-items: center;
   gap: 10px;
-}
-
-.Population {
-  font-weight: normal;
 }
 
 summary {
@@ -119,6 +115,8 @@ summary {
   white-space: nowrap;
 
   padding: 6px;
+
+  transition: all 250ms;
 }
 
 .ServerLink:hover,
@@ -142,7 +140,7 @@ summary {
 }
 
 .ServerLink.github:hover {
-  background-color: rgb(224, 224, 224);
+  background-color: rgb(220, 220, 220);
 }
 
 .ServerLink.wikipedia-w {
@@ -151,5 +149,5 @@ summary {
 }
 
 .ServerLink.wikipedia-w:hover {
-  background-color: rgb(24, 24, 24);
+  background-color: rgb(30, 30, 30);
 }

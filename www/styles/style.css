@@ -58,7 +58,7 @@ a:hover::after {
 
 a:focus {
   color: white;
-  background-color: #ff55ff;
+  background-color: #b62036;
 }
 
 a:focus::before,

@@ -39,8 +39,8 @@ function renderServers(servers) {
     </span>
     <span class="Population">${
       server.online
-        ? '<span class="StatusOnline">online</span>'
-        : '<span class="StatusOffline">offline</span>'
+        ? '<span class="StatusOnline">ONLINE</span>'
+        : '<span class="StatusOffline">OFFLINE</span>'
     } ${server.players}</span>
 </div>
 <details class="ServerDescription">
