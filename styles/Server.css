@@ -34,10 +34,6 @@
   gap: 10px;
 }
 
-.Population {
-  font-weight: normal;
-}
-
 summary {
   font-size: 0.9em;
   font-weight: bold;
@@ -119,6 +115,8 @@ summary {
   white-space: nowrap;
 
   padding: 6px;
+
+  transition: all 250ms;
 }
 
 .ServerLink:hover,
@@ -142,7 +140,7 @@ summary {
 }
 
 .ServerLink.github:hover {
-  background-color: rgb(224, 224, 224);
+  background-color: rgb(220, 220, 220);
 }
 
 .ServerLink.wikipedia-w {
@@ -151,5 +149,5 @@ summary {
 }
 
 .ServerLink.wikipedia-w:hover {
-  background-color: rgb(24, 24, 24);
+  background-color: rgb(30, 30, 30);
 }
