@@ -14,7 +14,7 @@
   border: 1px solid rgba(255, 255, 255, 0.1);
   padding: var(--medium-gap);
   gap: var(--medium-gap);
-  background-color: var(--background-color-secondary);
+  background-color: var(--background-color-primary);
   backdrop-filter: blur(8px);
   border-radius: 4px;
 }
