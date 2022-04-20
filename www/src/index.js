@@ -17,7 +17,7 @@ function renderLink(link) {
   }
 
   return `
-<a target="_blank" class="ServerLink" href="${link.href}">
+<a target="_blank" class="ServerLink ${link.what}" href="${link.href}">
   ${icon}
   ${link.text}
 </a>
