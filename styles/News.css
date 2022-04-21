@@ -24,6 +24,10 @@
   word-wrap: break-word;
 }
 
+.Text img {
+  max-width: 100%;
+}
+
 .NewsTitle > img {
   vertical-align: bottom;
 }
